@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /deck-request
+Disallow: /admin
+Sitemap: https://veredian.ai/sitemap.xml

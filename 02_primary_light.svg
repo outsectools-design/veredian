@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="480" height="100" viewBox="0 0 480 100"
+     xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-label="Veredian — Primary logo on light">
+  <!-- Veredian Primary Lockup — Light variant -->
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&amp;family=Inter:wght@500&amp;display=swap');
+    </style>
+  </defs>
+  <rect width="480" height="100" fill="#FFFFFF"/>
+
+  <circle cx="50" cy="50" r="40" fill="none" stroke="#00A89D" stroke-width="1.8"/>
+  <ellipse cx="50" cy="50" rx="16.80" ry="40" fill="none" stroke="#00A89D" stroke-width="0.81" opacity="0.28"/>
+  <line x1="50" y1="10" x2="50" y2="90" stroke="#00A89D" stroke-width="0.81" opacity="0.28"/>
+  <path d="M10.80,50 Q30.00,42.00 50,50 Q70.00,58.00 89.20,50" fill="none" stroke="#00A89D" stroke-width="0.68" opacity="0.22"/>
+  <path d="M14.00,34.00 Q50,28.40 86.00,34.00" fill="none" stroke="#00A89D" stroke-width="0.54" opacity="0.15"/>
+  <path d="M14.00,66.00 Q50,71.60 86.00,66.00" fill="none" stroke="#00A89D" stroke-width="0.54" opacity="0.15"/>
+  <polyline points="34.80,34.00 50,66.00 65.20,34.00" fill="none" stroke="#00A89D" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="106" y="67"
+        font-family="'Barlow Condensed', Arial, sans-serif"
+        font-size="58" font-weight="800"
+        fill="#0A1628"
+        letter-spacing="2">VEREDIAN</text>
+</svg>

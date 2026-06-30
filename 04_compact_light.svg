@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="340" height="72" viewBox="0 0 340 72"
+     xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-label="Veredian — Compact logo on light">
+  <!-- Veredian Compact Lockup — Light / Nav Bar -->
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&amp;family=Inter:wght@500&amp;display=swap');
+    </style>
+  </defs>
+  <rect width="340" height="72" fill="#FFFFFF"/>
+
+  <circle cx="36" cy="36" r="28" fill="none" stroke="#00A89D" stroke-width="1.5"/>
+  <ellipse cx="36" cy="36" rx="11.76" ry="28" fill="none" stroke="#00A89D" stroke-width="0.68" opacity="0.28"/>
+  <line x1="36" y1="8" x2="36" y2="64" stroke="#00A89D" stroke-width="0.68" opacity="0.28"/>
+  <path d="M8.56,36 Q22.00,30.40 36,36 Q50.00,41.60 63.44,36" fill="none" stroke="#00A89D" stroke-width="0.57" opacity="0.22"/>
+  <path d="M10.80,24.80 Q36,20.88 61.20,24.80" fill="none" stroke="#00A89D" stroke-width="0.45" opacity="0.15"/>
+  <path d="M10.80,47.20 Q36,51.12 61.20,47.20" fill="none" stroke="#00A89D" stroke-width="0.45" opacity="0.15"/>
+  <polyline points="25.36,24.80 36,47.20 46.64,24.80" fill="none" stroke="#00A89D" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="76" y="50"
+        font-family="'Barlow Condensed', Arial, sans-serif"
+        font-size="40" font-weight="800"
+        fill="#0A1628"
+        letter-spacing="1.5">VEREDIAN</text>
+</svg>

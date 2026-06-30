@@ -1,0 +1,16 @@
+{
+  "name": "Veredian",
+  "short_name": "Veredian",
+  "description": "Sovereign Edge AI Vision Silicon — Purpose-built for governments that cannot accept foreign supply-chain risk.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0A1628",
+  "theme_color": "#0A1628",
+  "icons": [
+    {
+      "src": "13_favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
