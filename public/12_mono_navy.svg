@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="440" height="90" viewBox="0 0 440 90"
+     xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-label="Veredian — Monochrome navy">
+  <!-- Veredian Monochrome Navy — single-color light print, letterhead -->
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&amp;family=Inter:wght@500&amp;display=swap');
+    </style>
+  </defs>
+
+  <circle cx="42" cy="45" r="33" fill="none" stroke="#0A1628" stroke-width="1.7"/>
+  <ellipse cx="42" cy="45" rx="13.86" ry="33" fill="none" stroke="#0A1628" stroke-width="0.77" opacity="0.28"/>
+  <line x1="42" y1="12" x2="42" y2="78" stroke="#0A1628" stroke-width="0.77" opacity="0.28"/>
+  <path d="M9.66,45 Q25.50,38.40 42,45 Q58.50,51.60 74.34,45" fill="none" stroke="#0A1628" stroke-width="0.65" opacity="0.22"/>
+  <path d="M12.30,31.80 Q42,27.18 71.70,31.80" fill="none" stroke="#0A1628" stroke-width="0.51" opacity="0.15"/>
+  <path d="M12.30,58.20 Q42,62.82 71.70,58.20" fill="none" stroke="#0A1628" stroke-width="0.51" opacity="0.15"/>
+  <polyline points="29.46,31.80 42,58.20 54.54,31.80" fill="none" stroke="#0A1628" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="88" y="36"
+        font-family="'Barlow Condensed', Arial, sans-serif"
+        font-size="36" font-weight="800"
+        fill="#0A1628"
+        letter-spacing="1.5">VEREDIAN</text>
+  <text x="88" y="66"
+        font-family="'Inter', Arial, sans-serif"
+        font-size="11" font-weight="500"
+        fill="#0A1628" opacity="0.45"
+        letter-spacing="4.5">SOVEREIGN EDGE AI</text>
+</svg>

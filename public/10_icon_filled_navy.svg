@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200"
+     xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-label="Veredian — Filled navy icon">
+  <!-- Veredian Filled Navy Icon — Light background applications -->
+  <circle cx="100" cy="100" r="96" fill="#0A1628"/>
+  <ellipse cx="100" cy="100" rx="40" ry="96" fill="none" stroke="#00A89D" stroke-width="1.2" opacity="0.25"/>
+  <line x1="100" y1="4" x2="100" y2="196" stroke="#00A89D" stroke-width="1.2" opacity="0.25"/>
+  <path d="M4,100 Q52,76 100,100 Q148,124 196,100" fill="none" stroke="#00A89D" stroke-width="1.0" opacity="0.18"/>
+  <polyline points="54,56 100,130 146,56" fill="none" stroke="#00A89D" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

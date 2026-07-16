@@ -1,0 +1,299 @@
+/* v4 Design Overrides */
+
+/* Hero Diagram */
+.portfolio-diagram {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  max-width: 500px;
+}
+.portfolio-diagram__header {
+  color: #3A4A5C;
+  font-family: var(--font-body);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+}
+.portfolio-diagram__tree {
+  height: 40px;
+  border-top: 1px solid rgba(0, 168, 157, 0.3);
+  border-left: 1px solid rgba(0, 168, 157, 0.3);
+  border-right: 1px solid rgba(0, 168, 157, 0.3);
+  margin: 0 16%;
+  position: relative;
+}
+.portfolio-diagram__tree::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  width: 1px;
+  height: 10px;
+  background-color: rgba(0, 168, 157, 0.3);
+}
+.portfolio-diagram__tree::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 1px;
+  height: 100%;
+  background-color: rgba(0, 168, 157, 0.3);
+}
+.portfolio-diagram__chips {
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+}
+.diagram-chip {
+  flex: 1;
+  padding: 16px 8px;
+  text-align: center;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  background-color: var(--primary-navy);
+}
+.diagram-chip--flagship {
+  border: 1px solid var(--sovereign-teal);
+}
+.diagram-chip--future {
+  border: 1px dashed rgba(200, 212, 223, 0.3);
+}
+.diagram-chip__title {
+  color: var(--white);
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 12px;
+}
+.diagram-chip__sub {
+  color: var(--sovereign-teal);
+  font-size: 10px;
+}
+.diagram-chip__badge {
+  font-size: 8px;
+  color: var(--sovereign-teal);
+  background: rgba(0, 168, 157, 0.1);
+  padding: 2px 4px;
+  border-radius: 2px;
+  margin-top: 4px;
+}
+.portfolio-diagram__foundation {
+  border: 1px solid var(--sovereign-teal);
+  background-color: rgba(0, 168, 157, 0.05);
+  border-radius: 4px;
+  padding: 16px;
+  text-align: center;
+}
+.foundation-title {
+  color: var(--sovereign-teal);
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.05em;
+  margin-bottom: 4px;
+}
+.foundation-sub {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 11px;
+}
+
+/* Stat Bar */
+.stat-bar {
+  background-color: var(--primary-navy);
+  border: none;
+  padding: 0;
+}
+.stat-bar__label {
+  color: var(--sovereign-teal);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  margin-top: 8px;
+}
+.stat-bar__item + .stat-bar__item::before {
+  display: none;
+}
+
+/* Challenge Cards */
+.card--challenge {
+  padding: 32px;
+  border-radius: 8px;
+  text-align: left;
+}
+.card__icon-wrap {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid var(--sovereign-teal);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--sovereign-teal);
+  margin-bottom: 20px;
+}
+
+/* Portfolio Cards */
+.card--portfolio {
+  padding: 40px;
+  background-color: var(--white);
+}
+.card__badge-row {
+  margin-bottom: 24px;
+}
+.card__badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 100px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.card__badge--flagship {
+  border: 1px solid var(--sovereign-teal);
+  color: var(--sovereign-teal);
+  background: rgba(0, 168, 157, 0.05);
+}
+.card__badge--neutral {
+  border: 1px solid var(--mid-gray);
+  color: var(--silver);
+}
+.card__badge--gold {
+  border: 1px solid var(--premium-gold);
+  color: var(--premium-gold);
+}
+.card--portfolio .card__title {
+  margin-bottom: 4px;
+}
+.card--portfolio .card__subtitle {
+  color: var(--sovereign-teal);
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+/* Compare Boxes */
+.platform-compare {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 48px;
+}
+.compare-box {
+  padding: 40px;
+  border-radius: 8px;
+  flex: 1;
+  max-width: 400px;
+}
+.compare-box--narrow {
+  background-color: var(--navy-mid);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.compare-box--platform {
+  background-color: var(--navy-mid);
+  border: 1px solid var(--sovereign-teal);
+}
+.compare-title {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 16px;
+  color: var(--white);
+}
+.compare-box p {
+  color: var(--silver);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Team Section */
+.team-section {
+  background-color: var(--primary-navy);
+  color: var(--white);
+}
+.team-section h2 {
+  color: var(--white);
+}
+.team-section p {
+  color: var(--silver);
+}
+.team-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 48px;
+}
+.team-card {
+  text-align: center;
+  border: none;
+  background: transparent;
+  padding: 0;
+  width: calc(33.33% - 32px);
+  max-width: 180px;
+}
+.team-card__initials {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: var(--sovereign-teal);
+  color: var(--white);
+  font-size: 24px;
+  margin: 0 auto 16px;
+}
+.team-card__name {
+  color: var(--white);
+  font-weight: 600;
+  font-size: 16px;
+}
+.team-card__role {
+  color: var(--sovereign-teal);
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+.team-card__companies {
+  display: none;
+}
+.company-strip {
+  margin-top: 64px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 24px 0;
+  text-align: center;
+}
+.company-strip__logos {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+  color: var(--silver);
+  font-size: 12px;
+  letter-spacing: 0.1em;
+}
+
+/* IP Foundation */
+.ip-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 48px;
+}
+.ip-card {
+  background-color: var(--navy-mid);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 32px;
+}
+.ip-card__title {
+  color: var(--white);
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+.ip-card__desc {
+  color: var(--silver);
+  font-size: 14px;
+}
